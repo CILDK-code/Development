@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+    color: #282828;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.pinglun {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.pinglun-left {
+    float: left;
+    padding-left: 180px;
+}
+
+.pinglun-right {
+    padding-left: 90px;
+    float: left;
+}
+
+.pinglun-div ul {
+    /* list-style: none; */
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: square;
+}
+
+.pinglun-div ul li {
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    background-color: rgb(243, 243, 243);
+}
+
+.pinglun-div ul a:link,
+.pinglun-div ul a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+}
+
+.pinglun-div ul li:hover {
+    background-color: red;
+}
+
+.pinglun-div ul li:hover a {
+    color: white;
+    text-decoration-line: underline;
+}
+
+.home-left {
+    padding-left: 200px;
+}
+
+.home-a {
+    margin-right: 100px;
+}
+
+.home-head {
+    text-align: center;
+    color: white;
+}
+
+.home img {
+    float: left;
+    width: 300px;
+    overflow: hidden;
+}
+
+.home-a {
+    float: left;
+    overflow: hidden;
+    float: left;
+}
+
+.bottom {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+}
+
+.bottom-first-div {
+    padding-bottom: 5px;
+}
+
+.bottom-a:link,
+.bottom-a:visited {
+    color: white;
+    text-decoration-line: none;
+}
+
+.bottom-a:hover {
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+.flexslider-right {
+    float: left;
+    padding-top: 30px;
+}
+
+.flexslider-right {
+    float: left;
+}
+
+.flexslider-right {
+    font-size: 18px;
+    font-weight: bolder;
+    list-style-type: square;
+}
+
+.flexslider-right li {
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    /* background-color: rgb(243, 243, 243); */
+}
+
+.flexslider-right a:link,
+.flexslider-right a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+}
+
+
+.flexslider-right li:hover a {
+    color: rgb(194, 0, 13);
+    text-decoration-line: underline;
+}

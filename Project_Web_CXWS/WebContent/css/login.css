@@ -1,0 +1,58 @@
+body{
+    margin:0; padding:0;
+    /* background-image: url("../images/login.jpg");  */
+
+}
+.left{
+    margin-left: 0%;
+    float: left;
+    width: 50%;
+    height: 752px;    
+    background-image: url("../images/login.jpg"); 
+    background-origin:border-box;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.right{
+    float: right;
+    margin-right: 20%; 
+    color: #265c6e;
+    margin-top: 8%;
+    height: 100%;
+}
+.right li{
+    list-style:none;
+}
+.right p{
+   font-size: 30px;
+   height: 5px;
+}
+.message{
+    margin-left: 40px;
+    margin-top: 90px;
+    font-size: 22px;
+    line-height: 50px;
+}
+.right input{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+}
+.right button{
+    width: 190px;
+    height: 40px;
+    color: white;
+    background-color: #265c6e;
+    font-size: 20px;
+    border: 1px solid #265c6e;
+    margin-top: 50px;
+    letter-spacing: 7px;
+    cursor: pointer;/*移到点击按钮变换鼠标样式*/
+}
+/*实现按钮下压动画*/
+.right button:hover {background-color: #265c6e}   /*移到目标部分变化*/
+.right button:active {
+  background-color:  #265c6e;/*点击后的颜色*/
+  box-shadow: 0 3px #666;/*点击后下面的阴影部分*/
+  transform: translateY(3px);/*点击上下移动距离*/
+}

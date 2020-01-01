@@ -1,0 +1,43 @@
+ 
+.signup{
+    width: 30%;
+    margin: auto;
+    /* background-color: white; */
+    position: relative;
+    padding: 30px;
+    /* border:1px solid #e8e9ee;  */
+}
+.signup .import{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ec1a1a;
+    color: #ec1a1a;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+    BACKGROUND-COLOR: transparent;
+}
+::-webkit-input-placeholder{
+    color: #ec1a1a;
+}
+.signup h4{
+    color: yellow ;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 2.5rem;;
+}
+.signup button{
+    display: block;
+    width: 100%;
+    outline: none;
+    background-color:  #ec1a1a;
+    border: 1px solid #880202;
+    color: yellow;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px;
+}
